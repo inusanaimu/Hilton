@@ -4,10 +4,10 @@
     "slug": "Hilton",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./App/Assets/Images/Logos/Logo1.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./App/Assets/Images/Logos/SplashLogo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
