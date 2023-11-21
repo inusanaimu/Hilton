@@ -1,9 +1,11 @@
-import { View, Text, StyleSheet } from 'react-native'
+import { View, Text, StyleSheet, SafeAreaView } from 'react-native'
 import React from 'react'
+import { Stack, useRouter } from 'expo-router'
 
 const Login = () => {
   return (
     <View style={styles.container}>
+      {/* <Stack.Screen/> */}
     <View><Text style={styles.logInText}>Log in</Text></View>
       <Text>Login</Text>
     </View>
