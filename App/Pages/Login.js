@@ -1,7 +1,7 @@
 import { View, Text, StyleSheet, SafeAreaView } from 'react-native'
 import React from 'react'
 import { Stack, useRouter } from 'expo-router'
-
+import {SIZES, COLORS, } from '../../constant'
 const Login = () => {
   return (
     <View style={styles.container}>
@@ -19,6 +19,7 @@ const styles = StyleSheet.create({
         padding:20,
         backgroundColor:'#fff',
         alignItems:'center',
+        backgroundColor:COLORS.primary,
         justifyContent:'center' 
     },
     logInText: {
